@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS Member;
+
+CREATE TABLE IF NOT EXISTS Member (
+    memberId INTEGER PRIMARY KEY AUTO_INCREMENT,
+    memberName VARCHAR(255),
+    memberLikeFood VARCHAR(255)
+);
