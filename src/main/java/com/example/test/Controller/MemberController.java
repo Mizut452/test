@@ -11,6 +11,8 @@ public class MemberController {
     @RequestMapping("/member")
     public String memberPage(Model model,
                              Member member) {
+
+
         model.addAttribute("MemberName", member.getMemberName());
 
         return "memberPage";
