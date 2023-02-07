@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<span th:each="member : ${member}">
+        IDは<span th:text="${member.memberId}"></span>
+        名前は<span th:text="${member.memberName}"></span>
+        好きな食べ物は<span th:text="${member.memberLikeFood}"></span>
+</span>
+</body>
+</html>
